@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function openingButton(props) {
+export default function OpeningButton(props) {
   return (
     <div className='container'>
       <div className='row'>
