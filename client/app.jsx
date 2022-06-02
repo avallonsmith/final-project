@@ -1,8 +1,14 @@
 import React from 'react';
-import Home from './pages/home';
+// import OpeningPage from './pages/open.jsx';
+import BrowsePage from './pages/browse.jsx';
 
 export default class App extends React.Component {
   render() {
-    return <Home />;
+    return (
+      <div className="container">
+        {/* <OpeningPage /> */}
+        <BrowsePage />
+      </div>
+    );
   }
 }

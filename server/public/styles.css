@@ -28,3 +28,20 @@ body {
   cursor: pointer;
   outline: 2px solid #faff00;
 }
+
+.black-background {
+  background-color: #0c0c14;
+  width: 1554px;
+  height: 101px;
+}
+
+.small-smile {
+  width: 79px;
+  height: 80px;
+}
+
+.browse-memes {
+  color: white;
+  top: 11px;
+  left: 130px;
+}
