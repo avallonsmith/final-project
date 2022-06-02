@@ -1,0 +1,30 @@
+body {
+  background-color: #2d2d2b;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+}
+
+.opening-button {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: #2d2d2b;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+  background-image: url("../images/smile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.opening-button:hover {
+  cursor: pointer;
+  outline: 2px solid #faff00;
+}

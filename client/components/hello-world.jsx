@@ -1,7 +1,11 @@
 import React from 'react';
 
-export default function HelloWorld(props) {
+export default function openingButton(props) {
   return (
-    <h1>Hello, World!</h1>
+    <div className='container'>
+      <div className='row'>
+        <button className="opening-button"></button>
+      </div>
+    </div>
   );
 }
