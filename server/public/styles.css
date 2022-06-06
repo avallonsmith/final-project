@@ -1,0 +1,112 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #2d2d2b;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.opening-button-container {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.opening-button {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: #2d2d2b;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
+  background-image: url("../images/smile.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.opening-button:hover {
+  cursor: pointer;
+  outline: 2px solid #faff00;
+}
+
+.black-background {
+  background-color: #0c0c14;
+  width: 100%;
+  height: 101px;
+}
+
+.small-smile {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.browse-memes {
+  color: white;
+  display: inline-block;
+  vertical-align: text-bottom;
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #links {
+  display: none;
+  margin-top: 140px;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  color: white;
+  background-color: #0c0c14;
+  display: block;
+  position: relative;
+  right: 0;
+  top: 0;
+  font-size: 35px;
+}
+
+.topnav a.icon:hover {
+  border: solid 2px #faff00;
+  color: black;
+}
+
+.topnav a:hover {
+  border: solid 2px #faff00;
+  background-color: #ddd;
+  color: black;
+}
+
+.menu-icon {
+  font-size: x-large;
+}
+
+.center {
+  align-items: center;
+}
