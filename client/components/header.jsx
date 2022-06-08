@@ -20,9 +20,11 @@ export default class Header extends React.Component {
     const isOpen = this.state.isOpen;
 
     let menuClass = '';
+    let hamburgerIcon = 'hidden';
 
     if (!isOpen) {
       menuClass = 'hidden';
+      hamburgerIcon = '';
     }
 
     return (
@@ -43,7 +45,12 @@ export default class Header extends React.Component {
                 </div>
                 {/* <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links --> */}
               <button className="icon" onClick={this.toggleOpen}>
-                <i className="fa fa-bars menu-icon" />
+                <div className={hamburgerIcon}>
+                  <i className="fa fa-bars menu-icon" />
+                </div>
+                <div className={menuClass}>
+                  <i className="far fa-arrow-alt-circle-left back-arrow"></i>
+                </div>
               </button>
             </div>
           </div>

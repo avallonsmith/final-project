@@ -69,7 +69,6 @@ body {
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #links {
-  display: none;
   margin-top: 145px;
 }
 
@@ -105,7 +104,35 @@ body {
 }
 
 .menu-icon {
-  font-size: x-large;
+  color: white;
+}
+
+.menu-icon:hover {
+  color: black;
+}
+
+.icon {
+  font-size: 45px;
+  background-color: #0c0c14;
+  color: white;
+}
+
+.icon:hover {
+  border: solid 2px #faff00;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.back-arrow {
+  font-size: 45px;
+  background-color: #0c0c14;
+  color: white;
+}
+
+.back-arrow:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  color: black;
 }
 
 .center {
