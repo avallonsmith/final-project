@@ -1,4 +1,5 @@
 require('dotenv/config');
+const db = require('./db');
 const path = require('path');
 const express = require('express');
 const errorMiddleware = require('./error-middleware');
@@ -12,8 +13,17 @@ if (process.env.NODE_ENV === 'development') {
 
 app.use(express.static(publicPath));
 
-app.get('/api/hello', (req, res) => {
-  res.json({ hello: 'world' });
+app.get('/api/memes', (req, res) => {
+  const sql = `
+    select * from memes;
+  `;
+
+  db.query(sql)
+    .then(result => {
+      const memes = result.rows;
+
+      res.json(memes);
+    });
 });
 
 app.use(errorMiddleware);
