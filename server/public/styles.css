@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #2d2d2b;
+  background-color: #18191e;
 }
 
 .row {
@@ -22,6 +22,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background-color: #2d2d2b;
 }
 
 .opening-button {
@@ -69,7 +70,7 @@ body {
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #links {
   display: none;
-  margin-top: 140px;
+  margin-top: 145px;
 }
 
 /* Style navigation menu links */
@@ -77,7 +78,7 @@ body {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   display: block;
 }
 
@@ -109,4 +110,53 @@ body {
 
 .center {
   align-items: center;
+}
+
+.meme-title {
+  color: white;
+}
+
+.adjust-meme {
+  width: 520px;
+  height: 471px;
+  border-radius: 10px;
+}
+
+.center-title {
+  display: flex;
+  justify-content: center;
+}
+
+.center-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-arrow {
+  font-size: xx-large;
+  color: #4d4d4f;
+  margin-left: 3rem;
+  border-radius: 50%;
+}
+
+.left-arrow {
+  font-size: xx-large;
+  color: #4d4d4f;
+  margin-right: 3rem;
+  border-radius: 50%;
+}
+
+.right-arrow:hover {
+  border: solid 2px #faff00;
+  cursor: pointer;
+}
+
+.left-arrow:hover {
+  border: solid 2px #faff00;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
