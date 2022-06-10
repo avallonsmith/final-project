@@ -39,9 +39,9 @@ export default class Header extends React.Component {
             <div className="topnav">
                 {/* <!-- Navigation links --> */}
               <div className={menuClass} id="links">
-                  <a href="#">Browse Memes</a>
-                  <a href="#">Saved Memes</a>
-                  <a href="#">Add Memes</a>
+                  <a href="#memes">Browse Memes</a>
+                  <a href="#memes">Saved Memes</a>
+                  <a href="#add-meme">Add Memes</a>
                 </div>
                 {/* <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links --> */}
               <button className="icon" onClick={this.toggleOpen}>

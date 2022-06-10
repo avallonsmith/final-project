@@ -235,24 +235,37 @@ body {
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.85);
 }
 
-.space-memes {
+/* .space-memes {
   display: flex;
   justify-content: space-between;
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 69px;
-}
+} */
 
-.edit-icon {
+/* .edit-icon {
   color: #cbcbcb;
   font-size: 2rem;
 
   /* background-color: #cbcbcb; */
-}
 
-.edit-icon:hover {
+/* .edit-icon:hover {
   border: solid 2px #faff00;
   cursor: pointer;
   font-weight: bold;
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.75);
+} */
+
+/* } */
+
+.uploaded-down {
+  margin-top: 30px;
+}
+
+.move {
+  margin-top: 15px;
+}
+
+.move-button {
+  margin-top: 15px;
 }
