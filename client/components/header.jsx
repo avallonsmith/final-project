@@ -32,7 +32,7 @@ export default class Header extends React.Component {
         <div className='row black-background justify-between center'>
           <div className='column-half'>
               <img className='small-smile' src='../images/smile.png' alt='smile'/>
-              <h2 className='browse-memes'>Browse Memes</h2>
+              <h2 className='browse-memes'>{this.props.title}</h2>
             </div>
               {/* <!-- Top Navigation Menu --> */}
           <div className='column-half'>

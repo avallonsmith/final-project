@@ -62,7 +62,7 @@ export default class BrowsePage extends React.Component {
 
     return (
       <div>
-        <Header />
+        <Header title='Browse Memes'/>
         <div>
           <div className='row center-title'>
             <h2 className='meme-title'>{title}</h2>
