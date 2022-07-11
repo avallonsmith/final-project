@@ -190,10 +190,11 @@ body {
 }
 
 .url {
-  width: 682px;
-  height: 82px;
+  width: 680px;
+  height: 75px;
   border-radius: 10px;
   font-size: larger;
+  padding-left: 5px;
 }
 
 .url:hover {
@@ -209,14 +210,46 @@ body {
 
 .add-button {
   width: 95px;
-  height: 62px;
+  height: 55px;
   border-radius: 10px;
-  margin-left: 10px;
   color: black;
+  margin: 0 5px;
   background-color: #cbcbcb;
 }
 
 .add-button:hover {
+  border: solid 3px #faff00;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.75);
+}
+
+.view-button {
+  width: 95px;
+  height: 55px;
+  border-radius: 10px;
+  color: black;
+  margin: 0 5px;
+  background-color: #cbcbcb;
+}
+
+.view-button:hover {
+  border: solid 3px #faff00;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.75);
+}
+
+.delete-button {
+  width: 95px;
+  height: 55px;
+  border-radius: 10px;
+  color: black;
+  margin: 0 5px;
+  background-color: #cbcbcb;
+}
+
+.delete-button:hover {
   border: solid 3px #faff00;
   cursor: pointer;
   font-weight: bold;
@@ -228,11 +261,16 @@ body {
 }
 
 .uploaded-meme {
-  width: 300px;
-  height: 300px;
+  width: 325px;
+  height: 325px;
   border: solid 2px #faff00;
   border-radius: 10px;
   box-shadow: 0 8px 8px rgba(0, 0, 0, 0.85);
+}
+
+.uploaded-meme:hover {
+  border: solid 4px #faff00;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.85);
 }
 
 /* .space-memes {

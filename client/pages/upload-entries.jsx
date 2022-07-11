@@ -48,6 +48,8 @@ export default class AddMemes extends React.Component {
             </div>
             <div className='row center-row move-button'>
               <button className='add-button'>ADD</button>
+              <button className='view-button'>VIEW</button>
+              <button className='delete-button'>DELETE</button>
             </div>
           </form>
         </div>
