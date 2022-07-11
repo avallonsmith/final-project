@@ -1,5 +1,6 @@
 * {
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -30,7 +31,6 @@ body {
   height: 200px;
   width: 200px;
   background-color: #2d2d2b;
-  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.25);
   background-image: url("../images/smile.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -39,6 +39,7 @@ body {
 .opening-button:hover {
   cursor: pointer;
   outline: 2px solid #faff00;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.4);
 }
 
 .black-background {
@@ -186,4 +187,85 @@ body {
 
 .hidden {
   display: none;
+}
+
+.url {
+  width: 682px;
+  height: 82px;
+  border-radius: 10px;
+  font-size: larger;
+}
+
+.url:hover {
+  border: solid 2px #faff00;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.75);
+}
+
+.url:focus {
+  border: solid 2px #faff00;
+  outline: none;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.75);
+}
+
+.add-button {
+  width: 95px;
+  height: 62px;
+  border-radius: 10px;
+  margin-left: 10px;
+  color: black;
+  background-color: #cbcbcb;
+}
+
+.add-button:hover {
+  border: solid 3px #faff00;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.75);
+}
+
+.move-down {
+  margin-top: 25px;
+}
+
+.uploaded-meme {
+  width: 300px;
+  height: 300px;
+  border: solid 2px #faff00;
+  border-radius: 10px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.85);
+}
+
+/* .space-memes {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 69px;
+} */
+
+/* .edit-icon {
+  color: #cbcbcb;
+  font-size: 2rem;
+
+  /* background-color: #cbcbcb; */
+
+/* .edit-icon:hover {
+  border: solid 2px #faff00;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.75);
+} */
+
+/* } */
+
+.uploaded-down {
+  margin-top: 30px;
+}
+
+.move {
+  margin-top: 15px;
+}
+
+.move-button {
+  margin-top: 15px;
 }

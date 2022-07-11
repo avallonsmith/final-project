@@ -32,16 +32,16 @@ export default class Header extends React.Component {
         <div className='row black-background justify-between center'>
           <div className='column-half'>
               <img className='small-smile' src='../images/smile.png' alt='smile'/>
-              <h2 className='browse-memes'>Browse Memes</h2>
+              <h2 className='browse-memes'>{this.props.title}</h2>
             </div>
               {/* <!-- Top Navigation Menu --> */}
           <div className='column-half'>
             <div className="topnav">
                 {/* <!-- Navigation links --> */}
               <div className={menuClass} id="links">
-                  <a href="#">Browse Memes</a>
-                  <a href="#">Saved Memes</a>
-                  <a href="#">Add Memes</a>
+                  <a href="#memes">Browse Memes</a>
+                  <a href="#memes">Saved Memes</a>
+                  <a href="#add-meme">Add Memes</a>
                 </div>
                 {/* <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links --> */}
               <button className="icon" onClick={this.toggleOpen}>
